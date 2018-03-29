@@ -1,0 +1,109 @@
+.logo_container {
+	text-align: center;
+}
+body{
+	margin: 0 auto;
+	font-family: "Verdana", Geneva, sans-serif;
+}
+.data_entry {
+	float: left;
+	width: 50%;
+	padding: 5%;
+}
+.form_design {
+	border: none;
+	border-bottom: 1px;
+	border-bottom-color: #E1E0E0;
+	border-bottom-style: solid;
+	padding-bottom: 2%;
+	width: 82%;
+	padding-left: 2%;
+	font-size: 15px;
+	font-family: "Verdana", Geneva, sans-serif;
+	margin-top: 5%;
+	 overflow: hidden;
+}
+.selection {
+	margin-left: 5%;
+	margin-bottom: 2%;
+	-webkit-margin-after: 7%;
+}
+
+.selection_data {
+	color: grey;
+	font-size: 17px;
+	font-family: "Verdana", Geneva, sans-serif;
+	padding: 5px;
+}
+	
+.form_design:hover {
+	border-bottom-color:#348FF1;
+}
+
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset{
+    margin-left: 5%;
+	margin-top: 3%;
+    padding-left: 5%;
+    width: 35%;
+	border-color:#f5f5f5;
+    
+}
+.form-style-3 fieldset legend{
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 18%;
+    padding: 0 10px 3px;
+    text-align: center;
+	color: #20769F;
+}
+.save_button{
+  border-radius: 4px;
+  background-color: #20769F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1% 19%;
+  float: right;
+}
+
+.save_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.save_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.save_button:hover span {
+  padding-right: 25px;
+}
+
+.save_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
